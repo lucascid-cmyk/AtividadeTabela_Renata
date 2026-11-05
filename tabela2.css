@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* tabela com as bordas juntas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #c2410c;
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c2410c;
+}
+
+th, td {
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+}
+
+/* as 2 cores de fundo: cabeçalhos em laranja e células em bege claro */
+th {
+    background-color: #c2410c;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    background-color: #fdf1e9;
+    color: #333333;
+    text-align: center;
+}
+
+/* largura das colunas */
+.periodo {
+    width: 16%;
+}
+
+.dia {
+    width: 12%;
+}

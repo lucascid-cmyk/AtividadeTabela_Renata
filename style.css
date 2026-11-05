@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* tabela com as bordas juntas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #1e3a8a;
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+th, td {
+    height: 45px;
+    padding: 12px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+}
+
+/* as 2 cores de fundo: cabeçalhos em azul escuro e células em azul bem claro */
+th {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    background-color: #eef3fb;
+    color: #333333;
+    text-align: center;
+}
+
+/* nomes dos estudantes alinhados à esquerda */
+tbody th {
+    text-align: left;
+}
